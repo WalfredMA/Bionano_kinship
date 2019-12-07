@@ -13,9 +13,16 @@ Test kinship of bionano samples based on common structural variations.
 
 Input:
 
-    -q: the query sample 
+    -c: the control sample 
 
-    -r: the output sample
+    -f: the test samples
 
-output:
+it outputs the common sv ratio. 
 
+
+Here are general results:
+
+    Same assembly	                                               100%
+    Same sample, different assembly                             	48%
+    Mother vs kid	                                              34-36%
+    No relationship	                                              22-26%
