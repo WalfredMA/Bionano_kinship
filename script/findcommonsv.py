@@ -8,16 +8,6 @@ import sys
 import getopt
 
 
-inputcontrol=''
-opts,args=getopt.getopt(sys.argv[1:],"a:b:c:")
-for op, value in opts:
-	if op=='-c':
-		inputcontrol=value
-	if op=='-a':
-		inputfiles=value
-
-inputfiles=(inputfiles+' '+inputcontrol).split()
-
 
 def findoverlaps(*args):
 
@@ -150,6 +140,19 @@ def main(inputfiles):
 
 
 if __name__=='__main__':
+	
+	inputquery=''
+	
+	opts,args=getopt.getopt(sys.argv[1:],"a:b:c:")
+	
+	for op, value in opts:
+		
+		if op=='-q':
+			inputquery=value
+		if op=='-r':
+			inputref=value
+
+	inputfiles=(inputref+' '+inputquery).split()
 	
 	main(inputfiles)
 
