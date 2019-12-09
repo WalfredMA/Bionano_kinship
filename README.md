@@ -1,5 +1,8 @@
 # Bionano_kinship
 
+//  Created by Walfred MA in 2019, wangfei.ma@ucsf.edu.
+//  Copyright © 2019 UCSF-Kwoklab. All rights reserved.
+
 Test kinship of bionano samples based on common structural variations.
 
     1. selected only deletions from each assembly with a high confidence value and size>1k.
