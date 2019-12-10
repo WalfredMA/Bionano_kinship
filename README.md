@@ -9,9 +9,9 @@ Test kinship of bionano samples based on common structural variations.
 
     2. Based on their coordinates on the reference, find SVs within 500bps distance.
 
-    3. choose one sample with no known kinship between either sample as the control and filtered all SVs overlapped with it. (This meant to filter out minor alleles of the reference)
+    3. choose one sample with no known kinship as the control and filtered all common SVs. (This meant to filter out minor alleles of the reference)
 
-    4. determined the percentage of overlapped SVs in each assembly, and pick the higher percentage to adjust the coverage discrepancy.
+    4. determined the percentages of overlapped SVs in tested assemblies, and output the lower one.
 
 
 Input:
@@ -22,6 +22,7 @@ Input:
 
 it outputs the common sv ratio. 
 
+eg: Python2.7 
 
 Here are general results:
 
