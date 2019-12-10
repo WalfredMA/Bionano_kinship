@@ -22,7 +22,7 @@ Input:
 
 it outputs the common sv ratio. 
 
-eg: Python2.7 
+eg: Python2.7 findcommonsv.py -f sample1;sample2 -c sample_control
 
 Here are general results:
 
